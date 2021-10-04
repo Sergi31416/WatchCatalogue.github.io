@@ -1,0 +1,141 @@
+
+.previous {
+  
+  position: absolute;
+  margin-left: 5%;
+  
+ 
+}
+
+
+
+.content_img div{
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */
+ .content_img:hover{
+  cursor: pointer;
+ }
+ 
+ .content_img:hover div{
+  height: 120px;
+  width: 98%;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9; 
+  font-size: 80px;
+ }
+.LOGO img  {
+ 
+    width: 100%;
+    height: 650px;
+  color:black;  
+  border-style: solid;
+  border-width: 5px;
+  margin-left: 0%
+}
+
+.WATCHES img {
+  height: 200px ;
+  width: 300px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin-left: 18%;
+}
+
+  
+h1{
+  width: 300px;
+  height: 300px;
+color:black;  
+border-style: solid;
+border-width: 5px;
+float:left;
+text-align: center;
+}
+
+h2{
+  font-size: 60px;
+  text-align: center;
+  margin-top: -5%;
+  font-family: 'Chela One', cursive;
+}
+
+nav {
+  width: 300px;
+  background: white;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-clip-path: circle(24px at 30px 24px);
+  clip-path: circle(24px at 32px 24px);
+  -webkit-transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
+  transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
+}
+
+nav:hover {
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.75s;
+  transition-duration: 0.75s;
+  -webkit-clip-path: circle(390px at 225px 24px);
+  clip-path: circle(390px at 150px 24px);
+}
+
+nav a {
+  display: block;
+  line-height: 50px;
+  padding: 0 20px;
+  color: inherit;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+nav a:hover { background: black;
+  color: white;
+}
+
+nav a:active { background: #ffca28; }
+
+.navicon {
+  padding: 23px 20px;
+  cursor: pointer;
+  -webkit-transform-origin: 32px 24px;
+  -ms-transform-origin: 32px 24px;
+  transform-origin: 32px 24px;
+}
+
+.navicon div {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.87);
+}
+
+.navicon div:before,
+.navicon div:after {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.87);
+  position: absolute;
+}
+
+.navicon div:before { top: -7px; }
+
+.navicon div:after { top: 7px; }
