@@ -29,10 +29,10 @@
 							
 						
 						<div class="top-title">
-							<h1>Time is Money</h1>
+							<h1>Time is Money : Time Is Precious</h1>
 							
-								Time is Prescious
-							</h6>
+							
+							
 						</div>
 					
 
@@ -41,6 +41,37 @@
 	
 	
 	</body>
+
+<script>
+
+
+(function () {
+  var angle = 0;
+  var p = document.querySelector('h1');
+  var text = p.textContent.split('');
+  var len = text.length;
+  var phaseJump = 360 / len;
+  var spans;
+
+  p.innerHTML = text.map(function (char) {
+    return '<span>' + char + '</span>';
+  }).join('');
+
+  spans = p.children;
+
+  (function wheee () {
+    for (var i = 0; i < len; i++) {
+      spans[i].style.color = 'hsl(' + (angle + Math.floor(i * phaseJump)) + ', 40%, 60%)';
+    }
+    angle++;
+    requestAnimationFrame(wheee);
+  })();
+})();
+
+
+
+</script>
+
 
 <footer></footer>
 </html>
