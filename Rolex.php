@@ -11,19 +11,7 @@
 	<body>
 	
 					
-		<nav>
-			<div class="navicon">
-			  <div></div>
-			</div>
-		  
-			<a href="index.html">Home </a>
-			<a href="Brands.html">Brands </a>
-			<a>Coming Soon</a>
-			<a>Coming Soon</a>
-			
-		  
-		  </nav>
-	
+		
 <p></p>
 <p></p>
 
@@ -33,7 +21,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 25%;" >
-<a href="Brands.html" class="previous round"><img src="back.jpg" style="height: 50px; height: 50px;"></a>
+<a href="Brands.php" class="previous round"><img src="back.jpg" style="height: 50px; height: 50px;"></a>
 	<p> </p>
 
 <div class="WATCHES">

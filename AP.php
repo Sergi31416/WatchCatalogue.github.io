@@ -8,21 +8,12 @@
 		<link rel="stylesheet" href="Brands.css">
 	
 	</head>
+
+
+
 	<body>
 	
-					
-		<nav>
-			<div class="navicon">
-			  <div></div>
-			</div>
-		  
-			<a href="index.html">Home </a>
-			<a href="Brands.html">Brands </a>
-			<a>Coming Soon</a>
-			<a>Coming Soon</a>
-			
-		  
-		  </nav>
+		
 
 		
 	
@@ -31,19 +22,32 @@
 
 
 
-<img src="logo/AP.png" width="300" height="150" style=" display: block;
+
+
+
+ </div>
+
+
+ 
+ <img src="logo/AP.png" width="300" height="150" style=" display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;" >
-  <a href="Brands.html" class="previous round"><img src="back.jpg" style="height: 50px; height: 50px;"></a>
+
+  <a href="Brands.php" class="previous round"><img src="back.jpg" style="height: 50px; height: 50px;"></a>
 	<p> </p>
 
 <div class="WATCHES">
 	
 	<!-- Watch 1 -->
 <div class="content_img">
-	<img src="Watches/AudemarPiguet/audemars-piguet-royal-oak-automatic-chronograph-black-silver-dial-bracelet-watch-p2273-6683_image.jpg" width="400" height="300" >
-	<div>Royal Oak Automatic Chronograph : $55,000</div>
+	<img src="https://i.ibb.co/KDzw9jy/audemars-piguet-royal-oak-automatic-chronograph-black-silver-dial-bracelet-watch-p2273-6683-image.png" width="400" height="300" >
+    <div><?php   
+   
+
+   
+?>
+</div>
    </div>
 
  	<!-- Watch 2 -->

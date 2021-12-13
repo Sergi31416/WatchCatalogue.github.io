@@ -22,28 +22,28 @@
 		
 		<div class="top-right-slide">
 		  <div class="inner-container-top">
-			<a href="index.html" class="nav-links">HOME</a>
+			<a href="index.php" class="nav-links">HOME</a>
 		  </div>
 		</div>
 		<div class="middle-right-slide">
 		  <div class="inner-container-middle">
-			<a href="#" class="nav-links">Coming Soon</a>
+			<a href="MyDashboard.php" class="nav-links">MyDashboard</a>
 		  </div>
 		</div>
 		<div class="bottom-right-slide">
 		  <div class="inner-container-bottom">
-			<a href="contact.html" class="nav-links">Contact Us</a>
+			<a href="contact.php" class="nav-links">Contact Us</a>
 		  </div>
 		</div>
 		
 		<div class="top-left-slide">
 		   <div class="inner-container-left-top">
-			<a href="Brands.html" class="nav-links">Brands</a>
+			<a href="Brands.php" class="nav-links">Brands</a>
 		  </div>
 		</div>
 		<div class="bottom-left-slide">
 		  <div class="inner-container-left-bottom">
-			<a href="#" class="nav-links">Coming Soon</a>
+			<a href="Login.php" class="nav-links">Login</a>
 		  </div>
 		</div>
 		
